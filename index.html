@@ -1,0 +1,319 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>RIHAM — Women of the Year</title>
+  <meta name="description" content="A celebration of the most extraordinary woman — Riham. Women of the Year." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,700;0,900;1,400;1,700&family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;1,300;1,400&family=Inter:wght@300;400;500&family=EB+Garamond:ital,wght@0,400;0,500;1,400&display=swap"
+    rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+
+  <!-- ═══════════════ NAVIGATION ═══════════════ -->
+  <nav class="nav" id="nav">
+    <div class="nav-left">
+      <span class="nav-issue">SPECIAL EDITION</span>
+    </div>
+    <div class="nav-logo">RIHAM</div>
+    <div class="nav-right">
+      <span class="nav-issue">LOVE STORY</span>
+    </div>
+  </nav>
+
+  <!-- ═══════════════ HERO ═══════════════ -->
+  <section class="hero" id="hero">
+    <div class="hero-bg-text" aria-hidden="true">RIHAM</div>
+
+    <div class="hero-content">
+      <div class="hero-eyebrow">
+        <span class="rule"></span>
+        <span>THE ANNUAL CELEBRATION</span>
+        <span class="rule"></span>
+      </div>
+
+      <h1 class="hero-name">
+        <span class="hero-name-line" data-text="R">R</span>
+        <span class="hero-name-line" data-text="I">I</span>
+        <span class="hero-name-line" data-text="H">H</span>
+        <span class="hero-name-line" data-text="A">A</span>
+        <span class="hero-name-line" data-text="M">M</span>
+      </h1>
+
+      <div class="hero-tagline-wrap">
+        <span class="tagline-ornament">✦</span>
+        <h2 class="hero-tagline">Women of the Year</h2>
+        <span class="tagline-ornament">✦</span>
+      </div>
+
+      <p class="hero-sub">An exclusive portrait of the woman who changed everything</p>
+
+      <div class="hero-scroll-hint">
+        <span>Scroll to discover</span>
+        <div class="scroll-line"></div>
+      </div>
+    </div>
+
+    <div class="hero-side-text left" aria-hidden="true">EXCLUSIVE · 2026</div>
+    <div class="hero-side-text right" aria-hidden="true">SPECIAL EDITION</div>
+  </section>
+
+  <!-- ═══════════════ TIMELINE ═══════════════ -->
+  <section class="timeline-section" id="timeline">
+    <div class="section-header">
+      <div class="section-eyebrow">
+        <span class="rule"></span>
+        <span>OUR STORY IN TIME</span>
+        <span class="rule"></span>
+      </div>
+      <h2 class="section-title">A Journey Through the Years</h2>
+      <p class="section-sub">From the moment she arrived — every month is a new chapter</p>
+    </div>
+
+    <div class="timeline-track-wrap" id="timeline-track-wrap">
+      <div class="timeline-line"></div>
+      <div class="timeline-progress-bar" id="timeline-progress"></div>
+      <div class="timeline-years" id="timeline-years"></div>
+      <!-- Engagement endpoint -->
+      <div class="timeline-engagement" id="timeline-engagement" aria-hidden="true">
+        <div class="engagement-ring-wrap">
+          <span class="engagement-ring">💍</span>
+          <span class="engagement-burst">✨</span>
+        </div>
+        <p class="engagement-label">Inshallah 💕</p>
+      </div>
+    </div>
+
+    <div class="timeline-entries" id="timeline-entries"></div>
+
+    <!-- Celebration overlay -->
+    <div class="celebration-overlay" id="celebration-overlay" aria-hidden="true">
+      <div class="celebration-content">
+        <div class="celebration-ring">💍</div>
+        <h3 class="celebration-title">Our Forever</h3>
+        <p class="celebration-sub">Inshallah — the best chapter is coming 💕</p>
+        <div class="celebration-hearts" id="celebration-hearts"></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══════════════ TOP 10 LISTICLE ═══════════════ -->
+  <section class="listicle-section" id="top10">
+
+    <!-- Fake Ad Left -->
+    <aside class="fake-ad ad-left" id="ad-eyes">
+      <div class="ad-label">AD</div>
+      <div class="ad-image-placeholder ad-eyes-img"></div>
+      <div class="ad-copy">
+        <p class="ad-headline">EYES THAT SPEAK</p>
+        <p class="ad-tagline">The look that started everything.</p>
+        <span class="ad-brand">RIHAM™</span>
+      </div>
+    </aside>
+
+    <div class="listicle-main">
+      <div class="section-header">
+        <div class="section-eyebrow">
+          <span class="rule"></span>
+          <span>THE DEFINITIVE LIST</span>
+          <span class="rule"></span>
+        </div>
+        <h2 class="section-title">10 Reasons She's<br><em>Unforgettable</em></h2>
+      </div>
+
+      <div class="listicle-items" id="listicle-items">
+        <!-- Items injected by JS -->
+      </div>
+    </div>
+
+    <!-- Fake Ad Right -->
+    <aside class="fake-ad ad-right" id="ad-nails">
+      <div class="ad-label">AD</div>
+      <div class="ad-image-placeholder ad-nails-img"></div>
+      <div class="ad-copy">
+        <p class="ad-headline">TOUCH OF GRACE</p>
+        <p class="ad-tagline">Beauty in the details.</p>
+        <span class="ad-brand">RIHAM™</span>
+      </div>
+    </aside>
+
+  </section>
+
+  <!-- ═══════════════ AWARDS ═══════════════ -->
+  <section class="awards-section" id="awards">
+    <div class="awards-bg-pattern" aria-hidden="true"></div>
+
+    <div class="section-header">
+      <div class="section-eyebrow">
+        <span class="rule"></span>
+        <span>THE HONORS</span>
+        <span class="rule"></span>
+      </div>
+      <h2 class="section-title">Her Awards</h2>
+      <p class="section-sub">Certified. Sealed. Delivered with love.</p>
+    </div>
+
+    <div class="awards-grid">
+
+      <article class="award-card" id="award-1">
+        <div class="award-medal">
+          <div class="award-medal-inner">
+            <span class="award-icon">😂</span>
+          </div>
+          <div class="award-ribbon"></div>
+        </div>
+        <div class="award-cert">
+          <p class="award-cert-eyebrow">CERTIFIED AWARD</p>
+          <h3 class="award-title">Best Laugh</h3>
+          <p class="award-desc">The kind of laugh that fills every room, that you chase after just to hear it again —
+            infectious, genuine, and entirely her own.</p>
+          <div class="award-seal">★ OFFICIAL ★</div>
+        </div>
+      </article>
+
+      <article class="award-card award-card--center" id="award-2">
+        <div class="award-medal award-medal--gold">
+          <div class="award-medal-inner">
+            <span class="award-icon">🤗</span>
+          </div>
+          <div class="award-ribbon award-ribbon--gold"></div>
+        </div>
+        <div class="award-cert">
+          <p class="award-cert-eyebrow">WORLD RECORD HOLDER</p>
+          <h3 class="award-title">World's Best Hugger</h3>
+          <p class="award-desc">When she holds you, the whole world slows down. Her hugs are a safe haven — warm, tight,
+            and full of everything words can't say.</p>
+          <div class="award-seal">★ VERIFIED ★</div>
+        </div>
+      </article>
+
+      <article class="award-card" id="award-3">
+        <div class="award-medal">
+          <div class="award-medal-inner">
+            <span class="award-icon">👁️</span>
+          </div>
+          <div class="award-ribbon"></div>
+        </div>
+        <div class="award-cert">
+          <p class="award-cert-eyebrow">UNDISPUTED CHAMPION</p>
+          <h3 class="award-title">Most Beautiful Eyes</h3>
+          <p class="award-desc">Eyes that carry oceans — one glance and you're lost. They sparkle when she smiles,
+            soften when she listens, and captivate always.</p>
+          <div class="award-seal">★ OFFICIAL ★</div>
+        </div>
+      </article>
+
+    </div>
+  </section>
+
+  <!-- ═══════════════ CLOSING LETTER ═══════════════ -->
+  <section class="letter-section" id="letter">
+    <div class="section-header">
+      <div class="section-eyebrow">
+        <span class="rule"></span>
+        <span>A PERSONAL NOTE</span>
+        <span class="rule"></span>
+      </div>
+      <h2 class="section-title">From the Heart</h2>
+    </div>
+
+    <div class="letter-layout">
+
+      <!-- Envelope on the right (centered) -->
+      <div class="envelope-wrap" style="margin: 0 auto;">
+        <p class="envelope-hint" id="envelope-hint">Click to open ↓</p>
+        <div class="envelope" id="envelope" tabindex="0" role="button" aria-label="Open envelope to read letter">
+          <div class="envelope-back"></div>
+          <div class="envelope-body">
+            <div class="envelope-left-flap"></div>
+            <div class="envelope-right-flap"></div>
+            <div class="envelope-bottom-flap"></div>
+            <div class="envelope-top-flap" id="envelope-flap"></div>
+            <div class="envelope-letter-peek" id="letter-peek">
+              <div class="envelope-letter-content">
+                <p class="envelope-letter-salutation">My dearest Rimi,</p>
+                <p class="envelope-letter-text">n7abk my love. and im sorry ,im sorry for everything.its just mindak i cant explain my feelings i just dont know how.somtimes i wonder why im like this.maybe its because of my childhood but idk . thats the whay im and the best part u still choose me and accept me even im ment to be like this but i will try my best to make u understand me . and im going through tough time at the moment so please never think i losed intrests in u or smth. i will alwayes love you and i hope the best for u and for us. and always put ur trust on me.</p>
+                <p class="envelope-letter-sign">With all my love,<br><strong>aymen 💕</strong></p>
+              </div>
+            </div>
+          </div>
+          <div class="envelope-heart">💌</div>
+        </div>
+        <p class="envelope-state-label" id="envelope-state">Tap once to feel it ♡</p>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ═══════════════ MESSAGE FORM ═══════════════ -->
+  <section class="message-section" id="message">
+    <div class="message-bg-text" aria-hidden="true">LOVE</div>
+
+    <div class="section-header">
+      <div class="section-eyebrow">
+        <span class="rule"></span>
+        <span>ALWAYS LISTENING</span>
+        <span class="rule"></span>
+      </div>
+      <h2 class="section-title">Send Me a Message<br><em>from Your Heart</em></h2>
+      <p class="section-sub">Anytime you feel something — a thought, a feeling, anything — send it here.<br>I'll always
+        be reading.</p>
+    </div>
+
+    <form class="message-form" id="message-form" novalidate>
+      <div class="form-group full">
+        <label for="msg-mood">Your Mood Today</label>
+        <select id="msg-mood" name="mood">
+          <option value="" disabled selected>Pick a feeling…</option>
+          <option value="happy">😊 Happy</option>
+          <option value="love">🥰 In Love</option>
+          <option value="missing">🥺 Missing You</option>
+          <option value="grateful">✨ Grateful</option>
+          <option value="playful">😜 Playful</option>
+          <option value="sad">🥲 A Little Sad</option>
+        </select>
+      </div>
+
+      <div class="form-group full">
+        <label for="msg-message">Your Message</label>
+        <textarea id="msg-message" name="message" rows="7"
+          placeholder="Write anything your heart wants to say…"></textarea>
+      </div>
+
+      <label for="msg-color">The color of your feeling</label>
+      <div class="color-picker-wrap">
+        <input type="color" id="msg-color" name="color" value="#c8325a" />
+        <span id="color-label">Deep Rose — like always</span>
+      </div>
+      </div>
+
+      <button type="submit" class="form-submit" id="form-submit">
+        <span class="submit-text">Send with Love 💌</span>
+        <span class="submit-icon">→</span>
+      </button>
+
+      <div class="form-success" id="form-success">
+        <span class="success-icon">💕</span>
+        <p>Your message is on its way — straight to his heart.</p>
+      </div>
+    </form>
+  </section>
+
+  <!-- ═══════════════ FOOTER ═══════════════ -->
+  <footer class="footer">
+    <div class="footer-logo">RIHAM</div>
+    <p class="footer-tagline">Women of the Year · Every Year · Forever</p>
+    <div class="footer-rule"></div>
+    <p class="footer-copy">Made with love ♡ Just for you</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
