@@ -392,7 +392,6 @@ window.addEventListener('scroll', () => {
 
     try {
       // When connected to Google Sheets, this will post data
-      if (GOOGLE_SHEET_URL !== 'https://script.google.com/macros/s/AKfycbwAjNM17I7YyinfDscCRvDm1bu9L2x35WMdXKQ_HrsLOzVxi85-1oOeJP5GEdq3nstV/exec') {
       await fetch(GOOGLE_SHEET_URL, {
   method: 'POST',
   mode: 'no-cors',
@@ -403,7 +402,7 @@ window.addEventListener('scroll', () => {
     timestamp: new Date().toISOString()
   })
 });
-      }
+      
 
       // Show success
       form.style.display = 'none';
